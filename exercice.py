@@ -10,7 +10,8 @@ def square_root(a):
     return square
 
 
-def square(a: float) -> float:
+def square(a):
+    
     return 0.0
 
 

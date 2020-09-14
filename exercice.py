@@ -12,7 +12,7 @@ def square_root(a):
 
 
 def square(a):
-    a = int(input('veuillez entrer un nombre'))
+    a = input('veuillez entrer un nombre')
     square = a**(2)
     return square
 

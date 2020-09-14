@@ -24,6 +24,7 @@
 
 
 
+
 ## Résultats
 Score | Critères
 --- | ---
@@ -33,8 +34,8 @@ Score | Critères
 1/1 | Conversion Farenheit -> Celsius
 0/1 | Conversion radians -> degrés
 1/1 | Conversion Celsius -> Farenheit
-0/1 | Conversion degrés -> radians
-5/7 | **Total**
+1/1 | Conversion degrés -> radians
+6/7 | **Total**
 
 [Voir détails](./logs/tests_results.txt) | [Rafraîchir](../../)
 # Exercices en vrac (chapitre 3)

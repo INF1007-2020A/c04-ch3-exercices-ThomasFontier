@@ -5,6 +5,7 @@
 import math
 
 def square_root(a):
+    a = input
     square = a**(0.5)
     return square
 

@@ -25,6 +25,7 @@ def to_degrees(angle_rads: float) -> tuple:
     z = math.degrees(angle_rads)
     deg = int(z)
     z_2 = z-deg
+    min = 
     return 
 
 

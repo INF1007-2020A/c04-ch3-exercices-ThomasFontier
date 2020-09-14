@@ -1,6 +1,6 @@
 test_average (__main__.TestExercice) ... FAIL
 test_square (__main__.TestExercice) ... ERROR
-test_square_root (__main__.TestExercice) ... ERROR
+test_square_root (__main__.TestExercice) ... ok
 test_to_celsius (__main__.TestExercice) ... FAIL
 test_to_degrees (__main__.TestExercice) ... FAIL
 test_to_farenheit (__main__.TestExercice) ... FAIL
@@ -17,18 +17,6 @@ Traceback (most recent call last):
   File "/home/runner/work/c04-ch3-exercices-ThomasFontier/c04-ch3-exercices-ThomasFontier/exercice.py", line 12, in square
     a = input('veuillez entrer un nombre')
 EOFError: EOF when reading a line
-
-======================================================================
-ERROR: test_square_root (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 16, in test_square_root
-    output = [exercice.square_root(v) for v in values]
-  File "test_exercice.py", line 16, in <listcomp>
-    output = [exercice.square_root(v) for v in values]
-  File "/home/runner/work/c04-ch3-exercices-ThomasFontier/c04-ch3-exercices-ThomasFontier/exercice.py", line 8, in square_root
-    return root
-NameError: name 'root' is not defined
 
 ======================================================================
 FAIL: test_average (__main__.TestExercice)
@@ -111,4 +99,4 @@ First differing element 0:
 ----------------------------------------------------------------------
 Ran 7 tests in 0.002s
 
-FAILED (failures=5, errors=2)
+FAILED (failures=5, errors=1)

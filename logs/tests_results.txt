@@ -12,13 +12,13 @@ FAIL: test_to_degrees (__main__.TestExercice)
 Traceback (most recent call last):
   File "test_exercice.py", line 86, in test_to_degrees
     'Mauvais calcul de radians -> degres'
-AssertionError: Lists differ: [None, None, None, None] != [(79.0980174562859, 5.881047377154118, 29.[198 chars]998)]
+AssertionError: Lists differ: [114.59155902616465, -229.1831180523293, 2[31 chars]5067] != [(79.0980174562859, 5.881047377154118, 29.[198 chars]998)]
 
 First differing element 0:
-None
+114.59155902616465
 (79.0980174562859, 5.881047377154118, 29.612494192724625)
 
-- [None, None, None, None]
+- [114.59155902616465, -229.1831180523293, 286.4788975654116, 234.3397382085067]
 + [(79.0980174562859, 5.881047377154118, 29.612494192724625),
 +  (-278.1960349125718, 48.23790524569176, 0.7750116145507491),
 +  (257.74504364071475, -15.297381557114704, 44.031235481811564),
@@ -40,6 +40,6 @@ First differing element 0:
 + [-0.08668468618238503, 0.17598251810595048, 6.283490739798685, 6.9973449482748] : Mauvais calcul de degres -> radians
 
 ----------------------------------------------------------------------
-Ran 7 tests in 0.001s
+Ran 7 tests in 0.003s
 
 FAILED (failures=2)

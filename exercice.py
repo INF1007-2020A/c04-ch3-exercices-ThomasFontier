@@ -9,10 +9,7 @@ def square_root(a: float) -> float:
 
 
 def square(a: float) -> float:
-    a = input('veuillez entrer un nombre')
-    a = int(a)
-    square = a**(2)
-    return square
+    return a**
 
 def average(a: float, b: float, c: float) -> float:
     return 0.0

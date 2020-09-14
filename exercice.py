@@ -6,7 +6,7 @@ import math
 
 def square_root(a):
     a = input('veuillez saisir un nombre positif')
-    root = a**(0.5)
+    root = a**0.5
     return root
 
 

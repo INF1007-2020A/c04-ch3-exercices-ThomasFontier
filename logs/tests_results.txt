@@ -1,25 +1,10 @@
-test_average (__main__.TestExercice) ... FAIL
+test_average (__main__.TestExercice) ... ok
 test_square (__main__.TestExercice) ... ok
 test_square_root (__main__.TestExercice) ... ok
 test_to_celsius (__main__.TestExercice) ... FAIL
 test_to_degrees (__main__.TestExercice) ... FAIL
 test_to_farenheit (__main__.TestExercice) ... FAIL
 test_to_radians (__main__.TestExercice) ... FAIL
-
-======================================================================
-FAIL: test_average (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 50, in test_average
-    'Mauvais calcul de la moyenne'
-AssertionError: Lists differ: [0.0, 0.0, 0.0] != [4.0, 0.0, -2.3333333333333335]
-
-First differing element 0:
-0.0
-4.0
-
-- [0.0, 0.0, 0.0]
-+ [4.0, 0.0, -2.3333333333333335] : Mauvais calcul de la moyenne
 
 ======================================================================
 FAIL: test_to_celsius (__main__.TestExercice)
@@ -87,4 +72,4 @@ First differing element 0:
 ----------------------------------------------------------------------
 Ran 7 tests in 0.002s
 
-FAILED (failures=5)
+FAILED (failures=4)

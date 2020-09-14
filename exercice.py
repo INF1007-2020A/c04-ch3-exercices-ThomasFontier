@@ -6,12 +6,13 @@ import math
 
 def square_root(a):
     a = input('veuillez saisir un nombre')
-    square = a**(0.5)
+    root = a**(0.5)
     return square
 
 
 def square(a):
     a = input('veuillez entrer un nombre')
+
     return 0.0
 
 

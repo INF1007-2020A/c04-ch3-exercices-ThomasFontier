@@ -11,7 +11,7 @@ def square_root(a):
 
 
 def square(a):
-    a = input('veuillez entrer un nombre')
+    a = int(input('veuillez entrer un nombre'))
     square = a**(2)
     return square
 

@@ -8,7 +8,7 @@ def square_root(a: float) -> float:
     return math.sqrt(a)
 
 
-def square(a):
+def square(a: float) -> float:
     a = input('veuillez entrer un nombre')
     a = int(a)
     square = a**(2)

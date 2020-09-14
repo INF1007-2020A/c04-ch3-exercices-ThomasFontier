@@ -15,7 +15,6 @@ def square(a):
     square = a**(2)
     return square
 
-
 def average(a: float, b: float, c: float) -> float:
     return 0.0
 
